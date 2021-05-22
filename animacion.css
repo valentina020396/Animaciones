@@ -1,0 +1,38 @@
+.contenedor{
+    font-family: 'Times New Roman';
+    background-color: orange;  
+    animation-duration: 3s;
+    animation-name:slidein;
+    animation-iteration-count: infinite;
+    
+    
+    }
+
+  @keyframes slidein{
+    50%{ 
+        background-color: #F34C28;
+    }
+
+    100%{
+    background-color: coral;}
+    
+}
+
+
+.contenedor2{
+    animation-duration: 4s;
+    animation-name: slidein2;
+    animation-iteration-count:4;
+}
+ @keyframes slidein2{
+
+   50%{
+       transform: scale(0.5);
+   }
+
+   100%{
+       transform: scale(1.3);
+   }
+  
+}
+
