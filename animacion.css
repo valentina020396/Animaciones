@@ -36,3 +36,56 @@
   
 }
 
+.contenedor3{
+    width: 200px;
+    height: 200px;
+    background-color: cornflowerblue;
+    animation-name: slidein3;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-timing-function: ease;
+
+}
+
+@keyframes slidein3{
+
+    0%{
+        left:0px;top: 0px;
+
+        
+    }
+
+
+    25%{
+        background-color: blue;
+        left:500px; top:0px;
+
+    }
+
+
+    50%{
+
+        background-color: cyan;
+        left:500px;
+
+        top:500px        
+    }
+    
+
+    75%{
+        background-color: darkgrey;
+        left:0px; top:500px;
+    }
+  
+
+    100%{
+        
+       left:0px; top:0px;
+    }
+
+
+
+}
+
